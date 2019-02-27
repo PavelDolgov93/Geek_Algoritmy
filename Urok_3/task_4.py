@@ -21,6 +21,7 @@ for item in array:
     dict_count[item] += 1
 
     if dict_count[item] > max_count:
+        max_count = dict_count[item]
         max_item = item
 
 print(array)

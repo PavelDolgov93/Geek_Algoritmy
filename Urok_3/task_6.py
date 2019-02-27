@@ -6,8 +6,8 @@
 import random
 
 SIZE = 10
-MIN_ = 10
-MAX_ = 99
+MIN_ = 1
+MAX_ = 9
 
 array = [random.randint(MIN_, MAX_) for _ in range(SIZE)]
 
