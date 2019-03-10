@@ -55,12 +55,13 @@ def use_dict():
     #array[dict_index_value['max_index']] = dict_index_value['min_value']
 
     result_size = 0
-    result_size += show_size(SIZE) #14
-    result_size += show_size(MIN_) #14
-    result_size += show_size(MAX_) #14
-    result_size += show_size(array) #240
-    result_size += show_size(dict_index_value) #232
-    print(f'Размер: {result_size}') #514
+    result_size += show_size(SIZE) # 14
+    result_size += show_size(MIN_) # 14
+    result_size += show_size(MAX_) # 14
+    result_size += show_size(index) # 14
+    result_size += show_size(array) # 240
+    result_size += show_size(dict_index_value) # 232
+    print(f'Размер: {result_size}') # 528
 
     return array
 
@@ -91,13 +92,14 @@ def use_var():
     array[min_index], array[max_index] = array[max_index], array[min_index]
 
     result_size = 0
-    result_size += show_size(SIZE) #14
-    result_size += show_size(MIN_) #14
-    result_size += show_size(MAX_) #14
-    result_size += show_size(array) #240
-    result_size += show_size(min_index) #14
-    result_size += show_size(max_index) #14
-    print(f'Размер: {result_size}') #310
+    result_size += show_size(SIZE) # 14
+    result_size += show_size(MIN_) # 14
+    result_size += show_size(MAX_) # 14
+    result_size += show_size(index) # 14
+    result_size += show_size(array) # 240
+    result_size += show_size(min_index) # 14
+    result_size += show_size(max_index) # 14
+    print(f'Размер: {result_size}') # 324
 
     return array
 
